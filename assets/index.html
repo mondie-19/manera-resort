@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>M.R | Manera Resort</title>
+</head>
+<body>
+    <nav>
+        <div class="nav_bar">
+            <div class="nav_header">
+                <div class="logo nav_logo">
+                    <div>M</div>
+                    <span>MANERA<br />RESORT</span>
+                </div>
+                <div class="nav_menu_btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav_links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#room">Rooms</a></li>
+                <li><a href="#feature">Feature</a></li>
+                <!-- <li><a href="#menu">Menu</a></li>-->
+                <!-- <li><a href="#news">News</a></li>-->
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header" id="home">
+        <div class="section_container header_container">
+            <!--<p class="section_subheader">ABOUT US</p>-->
+            <h1>The Perfect<br/>Resort For You</h1>
+            <a href="virtual_tours.html"><button class="btn">Take A Tour</button></a>
+        </div>
+    </header>
+
+    <!--BOOKING SECTION-->
+    <section class="booking" id="booking">
+        <div class="section_container booking_container">
+            <form action="/">
+                <div class="input_group">
+                    <label for="arrival">Arrival Date</label>
+                    <input type="text" placeholder="Your Arrival Date" />
+                </div>
+
+                <div class="input_group">
+                    <label for="departure">Departure Date</label>
+                    <input type="text" placeholder="Your Departure Date" />
+                </div>
+
+                <div class="input_group">
+                    <label for="guests">Guests</label>
+                    <input type="text" placeholder="No. of Guests" />
+                </div>
+                <button class="btn">Check Availability</button>
+            </form>
+        </div>
+    </section>
+
+    <!--ABOUT SECTION-->
+    <section class="about" id="about">
+        <div class="section_container about_container">
+            <div class="about_grid">
+                <div class="about_image">
+                    <img src="\Pics\20251012_132344.jpg" alt="about">
+                </div>
+                <div class="about_image">
+                    <img src="\Pics\about_1.jpg" alt="about">
+                </div>
+                <div class="about_card">
+                    <span><i class="ri-user-line"></i></span>
+                    <h4>Strong Team</h4>
+                    <p>Unlocking Hospitality, Excellence and Ensures Your Perfect Stay</p>
+                </div>
+
+                <div class="about_card">
+                    <span><i class="ri-calendar-check-line"></i></span>
+                    <h4>Luxury Room</h4>
+                    <p>Experience Unrivaled Luxury at Our Exquisite Luxury Rooms</p>
+                </div>
+            </div>
+
+            <div class="about_content">
+                <p class="section_subheader">ABOUT US</p>
+                <h2 class="section_header">Discover Our Heaven</h2>
+                <p class="section_description">
+                    Welcome to a hidden realm of extraordinary experiences, where every moment is crafted to perfection. Our new haven invites you to explore a world beyond the ordinary, where luxury meets tranquility in an ambiance like no other.
+                </p>
+                <a href="#booking"><button class="btn">Book Now</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!--ROOMS SECTION-->
+    <section class="room_container" id="room">
+        <p class="section_subheader">ROOMS</p>
+        <h2 class="section_header">Hand Picked Rooms</h2>
+        <div class="room_grid">
+            <div class="room_card">
+                <img src="\Pics\20251012_141233.jpg" alt="room">
+                <div class="room_card_details">
+                    <div>
+                        <h4>Deluxe Suite</h4>
+                        <p>Well-appointed rooms designed for guests who desire more.</p>
+                    </div>
+                    <h3>Kshs. 5,000 <span>/night</span></h3>
+                </div>
+            </div>
+
+            <div class="room_card">
+                <img src="\Pics\20251012_135329.jpg" alt="room">
+                <div class="room_card_details">
+                    <div>
+                        <h4>Scenic Suite</h4>
+                        <p>Top-tier accomodations usually on the highest floor on the hotel</p>
+                    </div>
+                    <h3>Kshs. 6,000 <span>/night</span></h3>
+                </div>
+            </div>
+
+            <div class="room_card">
+                <img src="\Pics\room_3.jpg" alt="room">
+                <div class="room_card_details">
+                    <div>
+                        <h4>Comfy Suite</h4>
+                        <p>Unwind in style, spacious, serene and crafted for your ultimate comfort.</p>
+                    </div>
+                    <h3>Kshs. 7,000 <span>/night</span></h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="intro">
+        <div class="section_container intro_container">
+            <div class="intro_content">
+                <p class="section_subheader">WELCOME TO MANERA RESORT</p>
+                <h2 class="section_header">Experience The Best Luxury Hotel</h2>
+                <p class="section_description">
+                    Whether you're seeking a cozy and exclusive hideaway or an immersive journey beneath the surface, Manera Resort promises to be an unforgettable stay, where the depths of comfort and luxury await your discovery. 
+                </p>
+                <a href="#booking"><button class="btn">Book Now</button></a>
+            </div>
+            
+            <div class="intro_video">
+                <video src="\Pics\welcome_video.mp4" autoplay muted loop></video>
+            </div>
+        </div>
+    </section>
+
+    <!--FEATURE SECTION-->
+    <section class="section_container feature_container" id="feature">
+        <p class="section_subheader">FACILITIES</p>
+        <h2 class="section_header">Core Features</h2>
+        <div class="feature_grid">
+            <div class="feature_card">
+                <span><i class="ri-wallet-line"></i></span>
+                <h4>Payment Options</h4>
+                <p>
+                    Our resort booking website offers a range of convenient payment options to suit your needs, including credit/debit cards, Mpesa and bank transfers.
+                </p>
+            </div>
+
+             <div class="feature_card">
+                <span><i class="ri-coupon-line"></i></span>
+                <h4>Special Offers</h4>
+                <p>
+                    Whether you're looking for a romantic getaway, a family vacation or a solo adventure, we have special offers that cater to your needs.
+                </p>
+            </div>
+
+             <div class="feature_card">
+                <span><i class="ri-time-line"></i></span>
+                <h4>Quiet hours</h4>
+                <p>
+                    Tucked away from the bustle of the city, Manera Resort offers a serene escape surrounded by nature’s calm. To preserve this tranquility, quiet hours are observed during night hours, ensuring every guest enjoys uninterrupted peace and rest.
+                </p>
+            </div>
+
+             <div class="feature_card">
+                <span><i class="ri-map-pin-line"></i></span>
+                <h4>Best Location</h4>
+                <p>
+                    At our resort booking website, we pride ourselves on offering accommodations in the best location, ensuring our guests have easy access to local attractions, dining, and entertainment.
+                </p>
+            </div>
+
+             <div class="feature_card">
+                <span><i class="ri-close-circle-line"></i></span>
+                <h4>Free cancellation</h4>
+                <p>
+                    We understand that travel plans can change unexpectedly. That's why we offer free cancellation and date of stay changes on all of our bookings, allowing you to book with confidence and flexibility.
+                </p>
+            </div>
+
+             <div class="feature_card">
+                <span><i class="ri-thumb-up-line"></i></span>
+                <h4>Have High Rating</h4>
+                <p>
+                    At Manera Resort, we take pride in offering an experience that consistently earns glowing reviews from our guests.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MENU SECTION -->
+
+    <section class="menu" id="menu">
+        <div class="section_container menu_container">
+            <!--div class="meun_header">
+                <div>
+                    <p class="section_subheader">MENU</p>
+                    <h2 class="section_header">Our Food Menu</h2>
+                </div>
+
+                <div class="section_nav">
+                    <span><i class="ri-arrow-left-line"></i></span>
+                    <span><i class="ri-arrow-right-line"></i></span>
+                </div>
+            </div>
+            <ul class="menu_items">
+                <li>
+                    <img src="assets/#1" alt="menu">
+                    <div class="menu_details">
+                        <h4>Eggs & Bacon</h4>
+                        <p>It is a culinary innovation that puts a spin on the beloved breakfast combination</p>
+                    </div>
+                </li>
+                 <li>
+                    <img src="assets/#2" alt="menu">
+                    <div class="menu_details">
+                        <h4>Tea or Coffee</h4>
+                        <p>A classic choice for your daily dose of comfort and calmness.</p>
+                    </div>
+                </li>
+                 <li>
+                    <img src="assets/#3" alt="menu">
+                    <div class="menu_details">
+                        <h4>Chia Oatmeal</h4>
+                        <p>Our Chia Oatmeal is a wholesome nutrient-packed breakfast delight.</p>
+                    </div>
+                </li>
+                 <li>
+                    <img src="assets/#4" alt="menu">
+                    <div class="menu_details">
+                        <h4>Fruit Parfait</h4>
+                        <p>Our fruit parfait is a delightful culinary masterpiece of freshness and flavour</p>
+                    </div>
+                </li>
+                 <li>
+                    <img src="assets/#5" alt="menu">
+                    <div class="menu_details">
+                        <h4>Marmalade Selection</h4>
+                        <p>Our Marmalade Selection is a delectable medley of handcrafted citrus preserves.</p>
+                    </div>
+                </li>
+                 <li>
+                    <img src="assets/#6" alt="menu">
+                    <div class="menu_details">
+                        <h4>Cheese Plate</h4>
+                        <p>Our Cheese Plate is a masterpiece that celebrates diverse world of cheeses.</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="menu_images">
+                <img src="assets/#7" alt="menu">
+                <img src="assets/#8" alt="menu">
+                <img src="assets/#9" alt="menu">
+            </div>-->
+            
+            <ul class="menu_banner">
+                <li>
+                    <span><i class="ri-file-text-line"></i></span>
+                    <h4>20</h4>
+                    <p>Projects are completed</p>
+                </li>
+                <li>
+                    <span><i class="ri-user-line"></i></span>
+                    <h4>200</h4>
+                    <p>Active clients</p>
+                </li>
+                <li>
+                    <span><i class="ri-function-line"></i></span>
+                    <h4>1k</h4>
+                    <p>Categories Served</p>
+                </li>
+                <li>
+                    <span><i class="ri-lightbulb-flash-line"></i></span>
+                    <h4>200</h4>
+                    <p>Ideas Raised Funds</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!--NEWS SECTION-->
+    <!--
+    <section class="section_container news_container" id="news">
+        <div class="news_header">
+            <div>
+                <p class="section_subheader">BLOG</p>
+                <h2 class="section_header">News Feeds</h2>
+            </div>
+            <div class="section_nav">
+                <span><i class="ri-arrow-left-line"></i></span>
+                <span><i class="ri-arrow-right-line"></i></span>
+            </div>
+        </div>
+        <div class="news_grid">
+            <div class="news_card">
+                <img src="assets/news-1.jpg" alt="news">
+                <div class="news_card_title">
+                    <p>10th October 2025</p>
+                    <p>By: Eddie</p>
+                </div>
+                <h4>Exploring a Local Culinary Gems: A Foodie's Guide</h4>
+                <p>
+                    Join Emily as she takes you on a gastronomic adventure through the neighborhoods surrounding our resort.
+                </p>
+            </div>
+             <div class="news_card">
+                <img src="assets/news-2.jpg" alt="news">
+                <div class="news_card_title">
+                    <p>25th June 2025</p>
+                    <p>By: David</p>
+                </div>
+                <h4></h4>
+                <p>
+                    Discover holistic spa treatments, fitness facilities, and mindfulness practices that will leave you feeling refreshed.
+                </p>
+            </div>
+             <div class="news_card">
+                <img src="assets/news-3.jpg" alt="news">
+                <div class="news_card_title">
+                    <p>15th May 2025</p>
+                    <p>By: Eddie</p>
+                </div>
+                <h4>Exploring outdoor activities near our Resort.</h4>
+                <p>
+                    From Hiking and biking trails to water sports and wild encounters, she highlights ways to experience nature's beauty.
+                </p>
+            </div>
+             <div class="news_card">
+                <img src="assets/news-1.jpg" alt="news">
+                <div class="news_card_title">
+                    <p>10th October 2025</p>
+                    <p>By: Eddie</p>
+                </div>
+                <h4>Exploring a Local Culinary Gems: A Foodie's Guide</h4>
+                <p>
+                    Join Emily as she takes you on a gastronomic adventure through the neighborhoods surrounding our resort.
+                </p>
+            </div>
+        </div>
+    </section>
+-->
+    
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <div class="section_container footer_container">
+            <div class="footer_col">
+                <div class="logo footer_logo">
+                    <div>M</div>
+                    <span>MANERA<br />RESORT</span>
+                </div>
+                <p class="section_description">
+                    Escape to Manera Resort, where elegance meets serenity. Nestled in breathtaking surroundings, our resort offers world-class accommodations, fine dining, and curated experiences designed to rejuvenate your body and soul. Whether you seek relaxation or a getaway, every detail is crafted to perfection. Discover your paradise today.
+                </p>
+                <ul class="footer_socials">
+                    <li>
+                        <a href=""><i class="ri-youtube-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="ri-instagram-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="ri-facebook-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="ri-linkedin-fill"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h4>Services</h4>
+                <div class="footer_links">
+                    <li><a href="#booking">Online Booking</a></li>
+                    <!--<li><a href="">Room Customization</a></li>-->
+                    <li><a href="virtual_tours.html">Virtual Tours</a></li>
+                    <!--<li><a href="">Special Offers</a></li>-->
+                    <!--<li><a href="concierge_services.html">Concierge Services</a></li>-->
+                    <li><a href="customer_support.html">Customer Support</a></li>
+                </div>
+            </div>
+            <div class="footer_col">
+                <h4>Contact Us</h4>
+                <div class="footer_links">
+                    <li>
+                        <span><i class="ri-phone-fill"></i></span>
+                        <div>
+                            <h5>Phone Number</h5>
+                            <p>0745841687</p>
+                        </div>
+                    </li>
+                     <li>
+                        <span><i class="ri-record-mail-fill"></i></span>
+                        <div>
+                            <h5>Email</h5>
+                            <p>info@maneraresort.com</p>
+                        </div>
+                    </li>
+                     <li>
+                        <span><i class="ri-map-pin-2-fill"></i></span>
+                        <div>
+                            <h5>location</h5>
+                            <p>KISUMU, Kisian</p>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bar">
+            Copyright 2025 Manera Resort. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
